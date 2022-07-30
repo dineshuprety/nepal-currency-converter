@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "dinesh-uprety/nepal-currency-converter",
+    "description": "This package is used to convert the rs => other currency.",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "Dinesh Uprety",
+        "nepal-currency-converter"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/dinesh-uprety/nepal-currency-converter",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "dineshuprety",
+            "email": "dineshuprety500@gmail.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Nepo\\NepalCurrencyConverter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Nepo\\NepalCurrencyConverter\\Tests\\": "tests"
         }
     },
     "scripts": {
