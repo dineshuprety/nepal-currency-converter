@@ -32,7 +32,7 @@ use Nepo\NepalCurrencyConverter\NepalCurrencyConverter;
 
 ```
 ## Currency Convert Option
-Markup : 
+To change the Nepali currency to other currency options : 
 * toINR();
 
 ## Testing
