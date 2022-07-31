@@ -1,5 +1,5 @@
 
-# This package is used to convert the rs => other currency.
+# Nepali Currency Converter
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/dinesh-uprety/nepal-currency-converter.svg?style=flat-square)](https://packagist.org/packages/dinesh-uprety/nepal-currency-converter)
 [![Tests](https://github.com/dinesh-uprety/nepal-currency-converter/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/dinesh-uprety/nepal-currency-converter/actions/workflows/run-tests.yml)
@@ -20,8 +20,12 @@ composer require dinesh-uprety/nepal-currency-converter
 ## Usage
 
 ```php
-$skeleton = new Dinesh Uprety\NepalCurrencyConverter();
-echo $skeleton->echoPhrase('Hello, Dinesh Uprety!');
+namespace Nepo\NepalCurrencyConverter\Tests;
+use Nepo\NepalCurrencyConverter\NepalCurrencyConverter;
+
+ $inr = NepalCurrencyConverter::convert(1)->toINR();
+ echo $inr; // 0.62
+
 ```
 
 ## Testing
