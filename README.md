@@ -34,6 +34,7 @@ use Nepo\NepalCurrencyConverter\NepalCurrencyConverter;
 ## Currency Convert Option
 To change the Nepali currency to other currency options : 
 * toINR();
+* toBDT();
 
 ## Testing
 

@@ -36,4 +36,14 @@ class NepalCurrencyConverter extends CurrencyVar
         // check if the amout is float or integer
         return is_float($this->amount * $this->indiaCurrrency) ? (float) round($this->amount * $this->indiaCurrrency, 2) : (int) $this->amount * $this->indiaCurrrency;
     }
+
+    /**
+     * Convert the amout to BDT.
+     * @return int|float
+     */
+    public function toBDT(): int|float
+    {
+        // check if the amout is float or integer
+        return is_float($this->amount * $this->bangladeshiCurrrency) ? (float) round($this->amount * $this->bangladeshiCurrrency, 2) : (int) $this->amount * $this->bangladeshiCurrrency;
+    }
 }

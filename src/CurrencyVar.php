@@ -10,4 +10,5 @@ namespace Nepo\NepalCurrencyConverter;
 class CurrencyVar
 {
     protected float $indiaCurrrency = 0.62;
+    protected float $bangladeshiCurrrency = 0.75;
 }
