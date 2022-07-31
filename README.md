@@ -1,9 +1,9 @@
 
 # Nepali Currency Converter
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/dinesh-uprety/nepal-currency-converter.svg?style=flat-square)](https://packagist.org/packages/dinesh-uprety/nepal-currency-converter)
-[![Tests](https://github.com/dinesh-uprety/nepal-currency-converter/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/dinesh-uprety/nepal-currency-converter/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/dinesh-uprety/nepal-currency-converter.svg?style=flat-square)](https://packagist.org/packages/dinesh-uprety/nepal-currency-converter)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/dineshuprety/nepal-currency-converter.svg?style=flat-square)](https://packagist.org/packages/dineshuprety/nepal-currency-converter)
+[![Tests](https://github.com/dineshuprety/nepal-currency-converter/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/dineshuprety/nepal-currency-converter/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/dineshuprety/nepal-currency-converter.svg?style=flat-square)](https://packagist.org/packages/dineshuprety/nepal-currency-converter)
 
 Nepali currency converter is a php package that gives the historical, latest currency rate and converts nepali currency to another.i.e
 ```php
@@ -18,7 +18,7 @@ Nepali currency converter is a php package that gives the historical, latest cur
 You can install the package via composer:
 
 ```bash
-composer require dinesh-uprety/nepal-currency-converter
+composer require dineshuprety/nepal-currency-converter
 ```
 
 ## Usage
