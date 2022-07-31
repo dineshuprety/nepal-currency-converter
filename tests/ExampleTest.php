@@ -3,6 +3,7 @@
 namespace Nepo\NepalCurrencyConverter\Tests;
 
 use Nepo\NepalCurrencyConverter\NepalCurrencyConverter;
+
 /**
  * Here we are testing the class NepalCurrencyConverter.
  *!! Write a test for every conveter function.
