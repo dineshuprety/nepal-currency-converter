@@ -5,9 +5,13 @@
 [![Tests](https://github.com/dinesh-uprety/nepal-currency-converter/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/dinesh-uprety/nepal-currency-converter/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/dinesh-uprety/nepal-currency-converter.svg?style=flat-square)](https://packagist.org/packages/dinesh-uprety/nepal-currency-converter)
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+Nepali currency converter is a php package that gives the historical, latest currency rate and converts nepali currency to another.i.e
+```php
 
+ $inr = NepalCurrencyConverter::convert(1)->toINR();
+ echo $inr; // 0.62
 
+```
 
 ## Installation
 
@@ -27,6 +31,9 @@ use Nepo\NepalCurrencyConverter\NepalCurrencyConverter;
  echo $inr; // 0.62
 
 ```
+## Currency Convert Option
+Markup : 
+* toINR();
 
 ## Testing
 
