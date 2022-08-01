@@ -11,4 +11,5 @@ class CurrencyVar
 {
     protected float $indiaCurrrency = 0.62;
     protected float $bangladeshiCurrrency = 0.75;
+    protected float $chinaCurrency = 18.82;
 }

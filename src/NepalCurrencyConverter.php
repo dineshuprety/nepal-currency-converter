@@ -46,4 +46,14 @@ class NepalCurrencyConverter extends CurrencyVar
         // check if the amout is float or integer
         return is_float($this->amount * $this->bangladeshiCurrrency) ? (float) round($this->amount * $this->bangladeshiCurrrency, 2) : (int) $this->amount * $this->bangladeshiCurrrency;
     }
+
+    /**
+     * Convert the amout to CNY.
+     * @return int|float
+     */
+    public function toCNY(): int|float
+    {
+        //check if the amount is float or integer
+        return is_float($this->amount * $this->chinaCurrency) ? (float) round($this->amount * $this->chinaCurrency, 2) : (int) $this->amount * $this->chinaCurrency;
+    }
 }
