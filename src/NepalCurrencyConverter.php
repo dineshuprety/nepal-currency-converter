@@ -56,4 +56,14 @@ class NepalCurrencyConverter extends CurrencyVar
         //check if the amount is float or integer
         return is_float($this->amount * $this->chinaCurrency) ? (float) round($this->amount * $this->chinaCurrency, 2) : (int) $this->amount * $this->chinaCurrency;
     }
+
+    /**
+    * Convert the amout to pkr.
+    * @return int|float
+    */
+    public function toPKR(): int|float
+    {
+        //check if the amount is float or integer
+        return is_float($this->amount * $this->pakistanCurrency) ? (float) round($this->amount * $this->pakistanCurrency, 2) : (int) $this->amount * $this->pakistanCurrency;
+    }
 }
