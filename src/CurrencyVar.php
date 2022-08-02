@@ -13,4 +13,5 @@ class CurrencyVar
     protected float $bangladeshiCurrrency = 0.75;
     protected float $chinaCurrency = 18.82;
     protected float $pakistanCurrency = 1.89;
+    protected float $maldivesCurrency = 0.12;
 }

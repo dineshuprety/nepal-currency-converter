@@ -27,3 +27,8 @@ it('convert Nepali currency to Pakistani currency', function () {
     $pkr = NepalCurrencyConverter::convert(1)->toPKR();
     expect($pkr)->toBe(1.89);
 });
+
+it('convert Nepali currency to Madivian Rufiyaa', function () {
+    $mvr = NepalCurrencyConverter::convert(1)->toMVR();
+    expect($mvr)->toBe(0.12);
+});
