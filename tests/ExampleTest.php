@@ -32,3 +32,8 @@ it('convert Nepali currency to Madivian Rufiyaa', function () {
     $mvr = NepalCurrencyConverter::convert(1)->toMVR();
     expect($mvr)->toBe(0.12);
 });
+
+it('convert Nepali currency to srilankan rupee', function () {
+    $lkr = NepalCurrencyConverter::convert(1)->toLKR();
+    expect($lkr)->toBe(2.83);
+});
