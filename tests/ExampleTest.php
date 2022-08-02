@@ -37,3 +37,8 @@ it('convert Nepali currency to srilankan rupee', function () {
     $lkr = NepalCurrencyConverter::convert(1)->toLKR();
     expect($lkr)->toBe(2.83);
 });
+
+it('convert Nepali currency to afghan afgani ', function () {
+    $afn = NepalCurrencyConverter::convert(1)->toAFN();
+    expect($afn)->toBe(1.41);
+});
