@@ -22,3 +22,8 @@ it('convert Nepali currency to Chinese currency', function () {
     $yuan = NepalCurrencyConverter::convert(1)->toCNY();
     expect($yuan)->toBe(18.82);
 });
+
+it('convert Nepali currency to Pakistani currency', function () {
+    $pkr = NepalCurrencyConverter::convert(1)->toPKR();
+    expect($pkr)->toBe(1.89);
+});
