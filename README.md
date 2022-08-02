@@ -39,13 +39,15 @@ To change the Nepali currency to other currency options :
 * toPKR();
 * toMVR();
 * toLKR();
+* toAFN();
 
 ## Testing
 
 ```bash
 composer test
 ```
-
+## V2 Comming Soon
+The V2 has a big change because we are feaching data from the API to make the conversion rate dynamic.
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.

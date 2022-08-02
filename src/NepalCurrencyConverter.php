@@ -58,7 +58,7 @@ class NepalCurrencyConverter extends CurrencyVar
     }
 
     /**
-    * Convert the amout to pkr.
+    * Convert the amout to PKR.
     * @return int|float
     */
     public function toPKR(): int|float
@@ -68,7 +68,7 @@ class NepalCurrencyConverter extends CurrencyVar
     }
 
     /**
-    * Convert the amout to pkr.
+    * Convert the amout to MVR.
     * @return int|float
     */
     public function toMVR(): int|float
@@ -78,7 +78,7 @@ class NepalCurrencyConverter extends CurrencyVar
     }
 
     /**
-    * Convert the amout to pkr.
+    * Convert the amout to LKR.
     * @return int|float
     */
     public function toLKR(): int|float
@@ -88,7 +88,7 @@ class NepalCurrencyConverter extends CurrencyVar
     }
 
     /**
-    * Convert the amout to pkr.
+    * Convert the amout to AFN.
     * @return int|float
     */
     public function toAFN(): int|float
