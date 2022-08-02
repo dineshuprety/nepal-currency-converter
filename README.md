@@ -38,6 +38,7 @@ To change the Nepali currency to other currency options :
 * toCNY();
 * toPKR();
 * toMVR();
+* toLKR();
 
 ## Testing
 
